@@ -1,1 +1,9 @@
 C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\bin\Debug\InClassCSharp328.exe.config
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\bin\Debug\InClassCSharp328.exe
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\bin\Debug\InClassCSharp328.pdb
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\obj\Debug\InClassCSharp328.csprojResolveAssemblyReference.cache
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\obj\Debug\InClassCSharp328.Form1.resources
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\obj\Debug\InClassCSharp328.Properties.Resources.resources
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\obj\Debug\InClassCSharp328.csproj.GenerateResource.Cache
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\obj\Debug\InClassCSharp328.exe
+C:\Users\CM185181\Documents\GitHub\InClassCSharp328\InClassCSharp328\obj\Debug\InClassCSharp328.pdb
