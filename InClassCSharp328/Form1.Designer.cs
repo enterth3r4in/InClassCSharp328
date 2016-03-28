@@ -35,6 +35,15 @@
             this.tbZipCodeInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnStandardize = new System.Windows.Forms.Button();
+            this.btnReadFile = new System.Windows.Forms.Button();
+            this.btnExitProgram = new System.Windows.Forms.Button();
+            this.lblStructured = new System.Windows.Forms.Label();
+            this.tbSZipCode = new System.Windows.Forms.TextBox();
+            this.tbSState = new System.Windows.Forms.TextBox();
+            this.tbSCity = new System.Windows.Forms.TextBox();
+            this.tbSAddressLineTwo = new System.Windows.Forms.TextBox();
+            this.tbSAddressLineOne = new System.Windows.Forms.TextBox();
+            this.btnStructure = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbAddressLineOne
@@ -89,19 +98,108 @@
             // 
             // btnStandardize
             // 
-            this.btnStandardize.Location = new System.Drawing.Point(269, 178);
+            this.btnStandardize.Location = new System.Drawing.Point(306, 150);
             this.btnStandardize.Name = "btnStandardize";
-            this.btnStandardize.Size = new System.Drawing.Size(144, 44);
+            this.btnStandardize.Size = new System.Drawing.Size(144, 30);
             this.btnStandardize.TabIndex = 6;
             this.btnStandardize.Text = "Standardize";
             this.btnStandardize.UseVisualStyleBackColor = true;
             this.btnStandardize.Click += new System.EventHandler(this.btnStandardize_Click);
             // 
+            // btnReadFile
+            // 
+            this.btnReadFile.Location = new System.Drawing.Point(306, 186);
+            this.btnReadFile.Name = "btnReadFile";
+            this.btnReadFile.Size = new System.Drawing.Size(144, 30);
+            this.btnReadFile.TabIndex = 7;
+            this.btnReadFile.Text = "Read File";
+            this.btnReadFile.UseVisualStyleBackColor = true;
+            this.btnReadFile.Click += new System.EventHandler(this.btnReadFile_Click);
+            // 
+            // btnExitProgram
+            // 
+            this.btnExitProgram.Location = new System.Drawing.Point(306, 222);
+            this.btnExitProgram.Name = "btnExitProgram";
+            this.btnExitProgram.Size = new System.Drawing.Size(144, 30);
+            this.btnExitProgram.TabIndex = 8;
+            this.btnExitProgram.Text = "Exit Program";
+            this.btnExitProgram.UseVisualStyleBackColor = true;
+            this.btnExitProgram.Click += new System.EventHandler(this.btnExitProgram_Click);
+            // 
+            // lblStructured
+            // 
+            this.lblStructured.AutoSize = true;
+            this.lblStructured.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStructured.Location = new System.Drawing.Point(517, 9);
+            this.lblStructured.Name = "lblStructured";
+            this.lblStructured.Size = new System.Drawing.Size(147, 20);
+            this.lblStructured.TabIndex = 14;
+            this.lblStructured.Text = "Structured Address";
+            // 
+            // tbSZipCode
+            // 
+            this.tbSZipCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSZipCode.Location = new System.Drawing.Point(649, 96);
+            this.tbSZipCode.Name = "tbSZipCode";
+            this.tbSZipCode.Size = new System.Drawing.Size(94, 26);
+            this.tbSZipCode.TabIndex = 13;
+            // 
+            // tbSState
+            // 
+            this.tbSState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSState.Location = new System.Drawing.Point(577, 96);
+            this.tbSState.Name = "tbSState";
+            this.tbSState.Size = new System.Drawing.Size(66, 26);
+            this.tbSState.TabIndex = 12;
+            // 
+            // tbSCity
+            // 
+            this.tbSCity.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSCity.Location = new System.Drawing.Point(440, 96);
+            this.tbSCity.Name = "tbSCity";
+            this.tbSCity.Size = new System.Drawing.Size(131, 26);
+            this.tbSCity.TabIndex = 11;
+            // 
+            // tbSAddressLineTwo
+            // 
+            this.tbSAddressLineTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSAddressLineTwo.Location = new System.Drawing.Point(440, 64);
+            this.tbSAddressLineTwo.Name = "tbSAddressLineTwo";
+            this.tbSAddressLineTwo.Size = new System.Drawing.Size(303, 26);
+            this.tbSAddressLineTwo.TabIndex = 10;
+            // 
+            // tbSAddressLineOne
+            // 
+            this.tbSAddressLineOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbSAddressLineOne.Location = new System.Drawing.Point(440, 32);
+            this.tbSAddressLineOne.Name = "tbSAddressLineOne";
+            this.tbSAddressLineOne.Size = new System.Drawing.Size(303, 26);
+            this.tbSAddressLineOne.TabIndex = 9;
+            // 
+            // btnStructure
+            // 
+            this.btnStructure.Location = new System.Drawing.Point(550, 172);
+            this.btnStructure.Name = "btnStructure";
+            this.btnStructure.Size = new System.Drawing.Size(144, 30);
+            this.btnStructure.TabIndex = 15;
+            this.btnStructure.Text = "Structure";
+            this.btnStructure.UseVisualStyleBackColor = true;
+            this.btnStructure.Click += new System.EventHandler(this.btnStructure_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(659, 264);
+            this.ClientSize = new System.Drawing.Size(755, 264);
+            this.Controls.Add(this.btnStructure);
+            this.Controls.Add(this.lblStructured);
+            this.Controls.Add(this.tbSZipCode);
+            this.Controls.Add(this.tbSState);
+            this.Controls.Add(this.tbSCity);
+            this.Controls.Add(this.tbSAddressLineTwo);
+            this.Controls.Add(this.tbSAddressLineOne);
+            this.Controls.Add(this.btnExitProgram);
+            this.Controls.Add(this.btnReadFile);
             this.Controls.Add(this.btnStandardize);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbZipCodeInput);
@@ -125,6 +223,15 @@
         private System.Windows.Forms.TextBox tbZipCodeInput;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnStandardize;
+        private System.Windows.Forms.Button btnReadFile;
+        private System.Windows.Forms.Button btnExitProgram;
+        private System.Windows.Forms.Label lblStructured;
+        private System.Windows.Forms.TextBox tbSZipCode;
+        private System.Windows.Forms.TextBox tbSState;
+        private System.Windows.Forms.TextBox tbSCity;
+        private System.Windows.Forms.TextBox tbSAddressLineTwo;
+        private System.Windows.Forms.TextBox tbSAddressLineOne;
+        private System.Windows.Forms.Button btnStructure;
     }
 }
 
